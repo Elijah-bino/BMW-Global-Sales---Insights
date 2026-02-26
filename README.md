@@ -26,4 +26,6 @@
     12. interest_rate_percent
     13. competition_index - (its a scale which determine how difficult is it to get a sale from 1 to 10)
     14. units_sold
-    
+
+# Tools Used:  
+  We are mainly using Python for data wrangling and Tablue for chart representation.
