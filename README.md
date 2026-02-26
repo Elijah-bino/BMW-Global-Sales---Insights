@@ -33,17 +33,17 @@
 ## Data Wrangling:  
   When exploring data we came across multiple problems:  
 
-  1. Unwanted Columns:
+  1. Unwanted Columns:  
        some of the columns are out of our context namely uel_price_usd, gdp_growth_percent, interest_rate_percent, competition_index; because these         columns won't help us to answer the question we have. So we are removing it to keep the complexity simple.
 
      <img width="1162" height="276" alt="image" src="https://github.com/user-attachments/assets/a01594a3-29f7-4c22-b7e5-8d307b773583" />
 
-  2. Date is split into different columns:
+  2. Date is split into different columns:  
        As month and year are in two different columns seperately, this is going to create a problem in Tableau, it will read year as date and assign        the column as iether just year alone, otherwise if we make it year-month-day, it will put the default month. To avoide these issues, we are          merging the year and month columns into column date.
 
       <img width="1314" height="679" alt="image" src="https://github.com/user-attachments/assets/0fde607e-7ab4-4114-b584-3fac4224a96d" />
 
-  3. Error values on column Segment:
+  3. Error values on column Segment:  
        The column segment says if the vehicle is "sedan" or "SUV". but in the initial data we had entries "electric". I did not make any sense as it        is an entry optimal for the colum "engine_type", infact there were the same entries in that column.
      
        <img width="800" height="694" alt="Segment Problem" src="https://github.com/user-attachments/assets/a588b68f-40c8-48ab-bd3e-8b2891ade64c" />
@@ -52,11 +52,11 @@
      
        <img width="984" height="938" alt="image" src="https://github.com/user-attachments/assets/cdc3f4ae-fa8c-40ba-b55a-68b53df5c47f" />
 
-  4. Adding column Profit:
+  4. Adding column Profit:  
      So inorder to answer our quetions, we need a column called profit.
      <img width="1754" height="189" alt="image" src="https://github.com/user-attachments/assets/6639b311-34cb-4025-b83b-9773e129b952" />
 
-  6. Performace vs profit:
+  6. Performace vs profit:  
      When I was trying to answer our question, a thought came to me, if a product has more margin doesn't mean that it brings in the most revenue.        So the column profit alone couldn't do the job. Therefore I created another column called Sales_Performance.
 
      <img width="1640" height="782" alt="Creating performance column" src="https://github.com/user-attachments/assets/0207e697-c130-4840-b6a5-019585f9b07a" />
