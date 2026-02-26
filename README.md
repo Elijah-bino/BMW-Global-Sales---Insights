@@ -1,6 +1,6 @@
-#BMW-Global-Sales
+# BMW-Global-Sales
 
-##Aim:
+## Aim:
   The main objective of this project is to gain general insight out of data and we will try to answer one main question:
     1. Which car is the best performer interms of return on investment?
     2. Based on the above outcome, we will analysis if there anything off that we are doing.
